@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Teste JS</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="inicio">
+      <button type="button" onclick="teste()">Click here!</button>
+      <p id="teste"></p>
+    </div>
+    <div class="contador">
+      <button name="subtrair" onclick="decrement()">-</button>
+      <span id="currentNumber">0</span>
+      <button name="adicionar" onclick="increment()">+</button>
+    </div>
+    <div id="list">
+      <form id="task-form">
+          <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui sua tarefa" />
+          <button type="submit">Adicionar</button>
+      </form>
+      <div id="tasks"></div>
+  </div>
+    <footer>
+        <script type="text/javascript" src="assets/js/scripts.js"></script>
+    </footer>
+  </body>
+</html>
